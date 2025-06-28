@@ -1,0 +1,53 @@
+# Typst CV .gitignore
+
+# Generated PDF files (these will be created by GitHub Actions)
+*.pdf
+
+# Typst cache and temporary files
+.typst-cache/
+*.tmp
+
+# Editor temporary files
+.DS_Store
+Thumbs.db
+*~
+.*.swp
+.*.swo
+
+# IDE/Editor specific files
+.vscode/
+.idea/
+*.sublime-*
+
+# Backup files
+*.bak
+*.backup
+*_backup.*
+
+# Log files
+*.log
+
+# OS generated files
+*.DS_Store?
+ehthumbs.db
+Icon?
+
+# Windows image file caches
+Thumbs.db
+
+# Folder config file
+Desktop.ini
+
+# Recycle Bin used on file shares
+$RECYCLE.BIN/
+
+# Mac
+.AppleDouble
+.LSOverride
+
+# Temporary files
+.tmp/
+temp/
+
+# CLAUDE.md
+CLAUDE.md

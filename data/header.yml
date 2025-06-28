@@ -1,0 +1,24 @@
+# Personal Information and Header Data
+name: "Joshua R. de Leeuw"
+subtitle: "Curriculum Vitae"
+contact_info:
+  office: "Olmsted Hall 267"
+  mailing: |
+    Box 201 Vassar College
+    124 Raymond Ave
+    Poughkeepsie, NY 12604
+  phone: "845-437-7374"
+  email: "jdeleeuw@vassar.edu"
+social_links:
+  - name: "Google Scholar"
+    url: "https://scholar.google.com/citations?user=fUtClyAAAAAJ"
+    display_url: "scholar.google.com/citations?user=fUtClyAAAAAJ"
+    icon: "google-scholar"  # Font Awesome Google Scholar (brands)
+  - name: "GitHub"
+    url: "https://github.com/jodeleeuw"
+    display_url: "github.com/jodeleeuw"
+    icon: "github"  # Font Awesome GitHub logo (brands)
+  - name: "Vassar Faculty"
+    url: "https://www.vassar.edu/faculty/jdeleeuw"
+    display_url: "vassar.edu/faculty/jdeleeuw"
+    icon: "university"  # Font Awesome university (solid)

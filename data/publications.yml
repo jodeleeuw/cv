@@ -1,0 +1,1386 @@
+james2025eyetracking:
+  type: Article
+  author:
+    - "James, A. N."
+    - "Ryskin, R."
+    - "Hartshorne, J. K."
+    - "Backs, H.*"
+    - "Bala, N.*"
+    - "Barcenas-Meade, L.*"
+    - "Bhattarai, S.*"
+    - "Charles, T.*"
+    - "Copoulos, G.*"
+    - "Coss, C.*"
+    - "Eisert, A.*"
+    - "Furuhashi, E.*"
+    - "Ginell, K.*"
+    - "Guttman-McCabe, A.*"
+    - "Harrison, E.*"
+    - "Hoban, L.*"
+    - "Hwang, W. A.*"
+    - "Iannetta, C.*"
+    - "Koenig, K. M.*"
+    - "de Leeuw, J. R."
+  title: "What Paradigms Can Webcam Eye-Tracking be Used for? Attempted Replications of Five Cognitive Science Experiments"
+  parent:
+    type: Periodical
+    title: "Collabra: Psychology"
+  date: 2025 
+  doi: "10.1525/collabra.140755"
+
+nave2025replication:
+  type: Article
+  author:
+    - "Nave, K. M."
+    - "Hannon, E. E."
+    - "Snyder, J. S."
+    - "Alexandrov, E.*"
+    - "Allen, S. C."
+    - "Barbosa, F."
+    - "Breen, M."
+    - "Celma-Miralles, A."
+    - "Chain, T."
+    - "de Leeuw, J. R."
+    - "Ferreira-Santos, F."
+    - "Fitzroy, A. B."
+    - "Geng, N.*"
+    - "Gilmore, S. A."
+    - "Gordon, R. L."
+    - "Grahn, J. A."
+    - "Har-Shai Yahav, P."
+    - "Holm, K.*"
+    - "Huettig, F."
+    - "Keitel, A."
+    - "Keitel, C."
+    - "Ladanyi, E."
+    - "Liu, Y."
+    - "Loui, P."
+    - "Lourie, G. A."
+    - "Magne, C. L."
+    - "Macedo, I."
+    - "Magne, C. L."
+    - "Møller, C."
+    - "Moreau, D."
+    - "Nayak, S."
+    - "Ostarek, M."
+    - "Pasion, R."
+    - "Pereira, M. R."
+    - "Pinto, D. S."
+    - "Poort, E. D."
+    - "Renzelman, M."
+    - "Russo, F. A."
+    - "Stupacher, J."
+    - "Tichko, P."
+    - "Wight, L."
+    - "Yu, C. Y."
+    - "Golumbic, E. M. Z."
+  title: "Registered Report: Replication and Extension of Nozaradan, Peretz, Missal and Mouraux (2011)"
+  parent:
+    type: Periodical
+    title: "bioRxiv"
+  date: 2025
+  doi: "10.1101/2025.03.13.643168"
+  url: "https://www.biorxiv.org/content/early/2025/03/17/2025.03.13.643168"
+
+inojosa2025online:
+  type: Article
+  author:
+    - "Inojosa, V."
+    - "Chang, C."
+    - "Paudel, S.*"
+    - "Teabo, A.*"
+    - "de Leeuw, J. R."
+  title: "Online Data Collection with jsPsych"
+  parent:
+    type: Encyclopedia
+    title: "The International Encyclopedia of Language and Linguistics"
+    edition: 3
+  date: 2025
+
+motz2024manyclasses2:
+  type: Article
+  author:
+    - "Motz, B."
+    - "Chinni, A."
+    - "de Leeuw, J. R."
+    - "Jankowski, H."
+    - "Aggarwal, A."
+    - "Amato, M."
+    - "Berlin, K."
+    - "Britten, K."
+    - "Brown, A."
+    - "Cerchiaro, M."
+    - "Evans, N."
+    - "Findley, A."
+    - "Gorman, R."
+    - "Gregg, K."
+    - "Hansen, K."
+    - "Hollender, H."
+    - "Hullinger, R. A."
+    - "Larkin, P."
+    - "Lion, M."
+    - "Long, R."
+    - "Mannarino, A."
+    - "Mocko, M."
+    - "Moore, K."
+    - "Packowski, J."
+    - "Palmer, C."
+    - "Ritchie, K."
+    - "Scott, J."
+    - "Stanton, M."
+    - "Talcott, L."
+    - "Wagner, L."
+    - "Waite, M."
+    - "Yeager, R."
+    - "Fyfe, E."
+  title: "ManyClasses 2: The Effects of Prequestions on Media Interactions and Learning"
+  date: 2024-07-29
+  doi: "10.31234/osf.io/3xbma"
+  note: "Under review"
+
+# Pre-prints
+ostrowski2023choice:
+  type: Article
+  author:
+    - "Ostrowski, R. P.*"
+    - "Bader, M.*"
+    - "de Leeuw, J. R."
+  title: "Choice-contingent feedback creates a learning trap: Replication of Rich & Gureckis (2018), Experiment 1"
+  date: 2023-09-08
+  doi: "10.31234/osf.io/b6wxu"
+  note: "Pre-print"
+
+deleeuw2022working:
+  type: Article
+  author:
+    - "de Leeuw, J. R."
+    - "Charles, T.*"
+  title: "Working memory load does not reduce the SNARC effect: Replication of van Dijck, Gevers, & Fias (2009), Experiment 1"
+  date: 2022-08-16
+  doi: "10.31234/osf.io/uar3f"
+  note: "Pre-print"
+
+# 2024 Journal Articles
+allen2024using:
+  type: Article
+  author:
+    - "Allen, K."
+    - "Brändle, F."
+    - "Botvinick, M."
+    - "Fan, J."
+    - "Gershman, S."
+    - "Gopnik, A."
+    - "Griffiths, T. L."
+    - "Hartshorne, J. K."
+    - "Hauser, T. U."
+    - "Ho, M. K."
+    - "de Leeuw, J.R."
+    - "Ma, W. J."
+    - "Murayama, K."
+    - "Nelson, J. D."
+    - "van Opheusden, B."
+    - "Pouncy, T."
+    - "Rafner, J."
+    - "Rahwan, I."
+    - "Rutledge, R. B."
+    - "Sherson, J."
+    - "Şimşek, Ö."
+    - "Spiers, H."
+    - "Summerfield, C."
+    - "Thalmann, M."
+    - "Vélez, N."
+    - "Watrous, A. J."
+    - "Tenenbaum, J."
+    - "Schulz, E."
+  title: "Using Games to Understand the Mind"
+  parent:
+    type: Periodical
+    title: "Nature Human Behavior"
+    volume: 8
+    page-range: "1035-1043"
+  date: 2024
+  doi: "10.1038/s41562-024-01878-9"
+
+deleeuw2024datapipe:
+  type: Article
+  author: ["de Leeuw, J. R."]
+  title: "DataPipe: Born-open data collection for online experiments"
+  parent:
+    type: Periodical
+    title: "Behavior Research Methods"
+    volume: 56
+    page-range: "2499-2506"
+  date: 2024
+  doi: "10.3758/s13428-023-02161-x"
+
+esfand2024lifetime:
+  type: Article
+  author:
+    - "Esfand, S. M."
+    - "Null, K. E."
+    - "Duda, J. M."
+    - "de Leeuw, J. R."
+    - "Pizzagalli, D. A."
+  title: "Lifetime history of major depressive disorder is associated with decreased reward learning: Evidence from a novel online version of the probabilistic reward task"
+  parent:
+    type: Periodical
+    title: "Journal of Affective Disorders"
+    volume: 350
+    page-range: "1007-1015"
+  date: 2024
+  doi: "10.1016/j.jad.2024.01.133"
+
+# 2023 Journal Articles
+deleeuw2023jspsych:
+  type: Article
+  author:
+    - "de Leeuw, J. R."
+    - "Gilbert, R. A."
+    - "Luchterhandt, B."
+  title: "jsPsych: Enabling an Open-Source Collaborative Ecosystem of Behavioral Experiments"
+  parent:
+    type: Periodical
+    title: "Journal of Open Source Software"
+    volume: 8
+    issue: 85
+    page-range: "5351"
+  date: 2023
+  doi: "10.21105/joss.05351"
+
+deleeuw2022simulating:
+  type: Article
+  author:
+    - "de Leeuw, J. R."
+    - "Gilbert, R. A."
+    - "Petrov, N."
+    - "Luchterhandt, B."
+  title: "Simulating behavior to help researchers build experiments"
+  parent:
+    type: Periodical
+    title: "Behavior Research Methods"
+    page-range: "1-11"
+  date: 2023
+  doi: "10.3758/s13428-022-01899-0"
+
+# 2022 Journal Articles
+deleeuw2022generalizability:
+  type: Article
+  author:
+    - "de Leeuw, J. R."
+    - "Motz, B. A."
+    - "Fyfe, E. R."
+    - "Carvalho, P. F."
+    - "Goldstone, R. L."
+  title: "Generalizability, transferability, and the practice-to-practice gap"
+  parent:
+    type: Periodical
+    title: "The Behavioral and Brain Sciences"
+    volume: 45
+    page-range: "e11"
+  date: 2022
+  doi: "10.1017/s0140525x21000406"
+
+# 2021 Journal Articles
+fyfe2021manyclasses:
+  type: Article
+  author:
+    - "Fyfe, E. R."
+    - "de Leeuw, J. R."
+    - "Carvalho, P. F."
+    - "Goldstone, R. L."
+    - "Sherman, J."
+    - "Admiraal, D."
+    - "Alford, L. K."
+    - "Bonner, A."
+    - "Brassil, C. E."
+    - "Brooks, C. A."
+    - "Carbonetto, T."
+    - "Chang, S. H."
+    - "Cruz, L."
+    - "Czymoniewicz-Klippel, M."
+    - "Daniel, F."
+    - "Driessen, M."
+    - "Habashy, N."
+    - "Hanson-Bradley, C. L."
+    - "Hirt, E. R."
+    - "Hojas Carbonell, V."
+    - "Jackson, D. K."
+    - "Jones, S."
+    - "Keagy, J. L."
+    - "Keith, B."
+    - "Malmquist, S. J."
+    - "McQuarrie, B."
+    - "Metzger, K. J."
+    - "Min, M. K."
+    - "Patil, S."
+    - "Patrick, R. S."
+    - "Pelaprat, E."
+    - "Petrunich-Rutherford, M. L."
+    - "Porter, M. R."
+    - "Prescott, K."
+    - "Reck, C."
+    - "Renner, T."
+    - "Robbins, E."
+    - "Smith, A. R."
+    - "Stuczynski, P."
+    - "Thompson, J."
+    - "Tsotakos, N."
+    - "Turk, J. K."
+    - "Unruh, K."
+    - "Webb, J. D."
+    - "Whitehead, S. N."
+    - "Wisniewski, E. C."
+    - "Zhang, K. A."
+    - "Motz, B. A."
+  title: "ManyClasses 1: Assessing the generalizable effect of immediate versus delayed feedback across many college classes"
+  parent:
+    type: Periodical
+    title: "Advances in Methods and Practices of Psychological Science"
+    volume: 4
+    issue: 3
+    page-range: "1-24"
+  date: 2021
+  doi: "10.1177/25152459211027575"
+
+deleeuw2021words:
+  type: Article
+  author:
+    - "de Leeuw, J. R."
+    - "Andrews, J."
+    - "Barney, L.*"
+    - "Bigler, M.*"
+    - "Bruna, P. J.*"
+    - "Chen, Y.*"
+    - "Cherry, R.*"
+    - "Dowie, D. R.*"
+    - "Forbes, E.*"
+    - "Haffey, B.*"
+    - "Hu, X.*"
+    - "Jaklitsch, M.*"
+    - "Leopold, N.*"
+    - "Lewis, C.*"
+    - "MacDonald, D.*"
+    - "McShaffrey, C.*"
+    - "Monroy-Spangenberg, E.*"
+    - "Nakayama, K.*"
+    - "Olstad, W.*"
+    - "Peng, R.*"
+    - "Scott-Rifer, G.*"
+    - "Wan, A.*"
+    - "Willans, L.*"
+    - "Zhang, L.*"
+  title: "Words may jumpstart meaning more than vision: A non-replication of early ERP effects in Boutonnet and Lupyan (2015)"
+  parent:
+    type: Periodical
+    title: "Collabra: Psychology"
+    volume: 7
+    issue: 1
+    page-range: "29763"
+  date: 2021
+  doi: "10.1525/collabra.29763"
+
+# 2020 Journal Articles
+law2020how:
+  type: Article
+  author:
+    - "Law, T.*"
+    - "de Leeuw, J. R."
+    - "Long, J. H."
+  title: "How Movements of a Non-Humanoid Robot Affect Emotional Perceptions and Trust"
+  parent:
+    type: Periodical
+    title: "International Journal of Social Robotics"
+  date: 2020
+  doi: "10.1007/s12369-020-00711-3"
+
+# 2019 Journal Articles
+broude2019rumors:
+  type: Article
+  author:
+    - "Broude, G.J."
+    - "Livingston, K.R."
+    - "de Leeuw, J.R."
+    - "Andrews, J.K."
+    - "Long, J.H. Jr."
+  title: "Rumors of our death…"
+  parent:
+    type: Periodical
+    title: "Trends in Cognitive Science"
+    volume: 11
+    page-range: "864-868"
+  date: 2019
+  doi: "10.1111/tops.12466"
+
+deleeuw2019similar:
+  type: Article
+  author:
+    - "de Leeuw, J.R."
+    - "Andrews, J."
+    - "Altman, Z.*"
+    - "Andrews, R.*"
+    - "Appleby, R.*"
+    - "Bonanno, J.L.*"
+    - "DeStefano, I.*"
+    - "Doyle-Samay, E.*"
+    - "Faruqui, A.*"
+    - "Griesmer, C.M.*"
+    - "Hwang, J.*"
+    - "Lawson, K.*"
+    - "Lee, R.A.*"
+    - "Liang, Y.*"
+    - "Mernacaj, J.*"
+    - "Molina, H.J.*"
+    - "Ng, H.X.*"
+    - "Park, S.*"
+    - "Possidente, T.*"
+    - "Shriver, A.*"
+  title: "Similar event-related potentials to structural violations in music and language: A replication of Patel, Gibson, Ratner, Besson, & Holcomb (1998)"
+  parent:
+    type: Periodical
+    title: "Meta Psychology"
+    volume: 3
+  date: 2019
+  doi: "10.15626/MP.2018.1481"
+
+hartshorne2019thousand:
+  type: Article
+  author:
+    - "Hartshorne, J."
+    - "de Leeuw, J.R."
+    - "Goodman, N."
+    - "Jennings, M."
+    - "O'Donnell, T."
+  title: "A thousand studies for the price of one: Accelerating psychological science with Pushkin"
+  parent:
+    type: Periodical
+    title: "Behavior Research Methods"
+    volume: 51
+    issue: 4
+    page-range: "1782-1803"
+  date: 2019
+  doi: "10.3758/s13428-018-1155-z"
+
+# 2018 Journal Articles
+motz2018embedding:
+  type: Article
+  author:
+    - "Motz, B.A."
+    - "Carvalho, P.F."
+    - "de Leeuw, J.R."
+    - "Goldstone, R.L."
+  title: "Embedding experiments: Staking Causal Inference in Authentic Educational Contexts"
+  parent:
+    type: Periodical
+    title: "Journal of Learning Analytics"
+    volume: 5
+    issue: 2
+    page-range: "47-59"
+  date: 2018
+  doi: "10.18608/jla.2018.52.4"
+
+# 2017 Journal Articles
+motz2017dissociation:
+  type: Article
+  author:
+    - "Motz, B.A."
+    - "de Leeuw, J.R."
+    - "Carvalho, P.F."
+    - "Liang, K.L."
+    - "Goldstone, R.L."
+  title: "A dissociation between engagement and learning: Enthusiastic instructions fail to reliably improve performance on a memory task"
+  parent:
+    type: Periodical
+    title: "PLoS ONE"
+    volume: 12
+    issue: 7
+    page-range: "e0181775"
+  date: 2017
+  doi: "10.1371/journal.pone.0181775"
+  note: "Winner of the Preregistration Challenge sponsored by the Center for Open Science"
+
+# 2016 Journal Articles
+goldstone2016carving:
+  type: Article
+  author:
+    - "Goldstone, R.L."
+    - "de Leeuw, J.R."
+    - "Landy, D.H."
+  title: "Carving nature at its joints or cutting its effective loops? On the dangers of trying to disentangle intertwined mental processes"
+  parent:
+    type: Periodical
+    title: "Behavioral and Brain Sciences"
+    volume: 39
+  date: 2016
+  doi: "10.1017/S0140525X1500271X"
+
+deleeuw2016effects:
+  type: Article
+  author:
+    - "de Leeuw, J. R."
+    - "Andrews. J. K."
+    - "Livingston, K. R."
+    - "Chin., B. M."
+  title: "The effects of categorization on perceptual judgment are robust across different assessment tasks"
+  parent:
+    type: Periodical
+    title: "Collabra: Psychology"
+    volume: 2
+    issue: 1
+    page-range: "9"
+  date: 2016
+  doi: "10.1525/collabra.32"
+
+carvalho2016invivo:
+  type: Article
+  author:
+    - "Carvalho, P."
+    - "Braithwaite, D."
+    - "de Leeuw, J. R."
+    - "Motz, B."
+    - "Goldstone, R. L."
+  title: "An in-vivo study of self-regulated study sequencing in introductory psychology courses"
+  parent:
+    type: Periodical
+    title: "PLoS ONE"
+    volume: 11
+    issue: 3
+    page-range: "e0152115"
+  date: 2016
+  doi: "10.1371/journal.pone.0152115"
+
+deleeuw2016psychophysics:
+  type: Article
+  author:
+    - "de Leeuw, J. R."
+    - "Motz, B. A."
+  title: "Psychophysics in a web browser? Comparing response times collected with JavaScript and Psychophysics Toolbox in a visual search task"
+  parent:
+    type: Periodical
+    title: "Behavior Research Methods"
+    volume: 48
+    issue: 1
+    page-range: "1-12"
+  date: 2016
+  doi: "10.3758/s13428-015-0567-2"
+
+# 2015 Journal Articles
+goldstone2015fitting:
+  type: Article
+  author:
+    - "Goldstone, R. L."
+    - "de Leeuw, J. R."
+    - "Landy, D. H."
+  title: "Fitting perception in and to cognition"
+  parent:
+    type: Periodical
+    title: "Cognition"
+    volume: 135
+    page-range: "24-29"
+  date: 2015
+  doi: "10.1016/j.cognition.2014.11.027"
+
+deleeuw2015jspsych:
+  type: Article
+  author: ["de Leeuw, J. R."]
+  title: "jsPsych: A JavaScript library for creating behavioral experiments in a Web browser"
+  parent:
+    type: Periodical
+    title: "Behavior Research Methods"
+    volume: 47
+    issue: 1
+    page-range: "1-12"
+  date: 2015
+  doi: "10.3758/s13428-014-0458-y"
+
+# 2011 Journal Articles
+long2011testing:
+  type: Article
+  author:
+    - "Long, J.H. Jr."
+    - "Krenitsky, N. M."
+    - "Roberts, S. F."
+    - "Hirokawa, J."
+    - "de Leeuw, J. R."
+    - "Porter, M. E."
+  title: "Testing biomimetic structures in bioinspired robots: how vertebrae control the stiffness of the body and the behavior of fish-like swimmers"
+  parent:
+    type: Periodical
+    title: "Integrative and Comparative Biology"
+    volume: 51
+    issue: 1
+    page-range: "158-175"
+  date: 2011
+  doi: "10.1093/icb/icr020"
+
+# Conference Papers
+chang2024searching:
+  type: Article
+  author:
+    - "Chang, C.*"
+    - "de Leeuw, J. R."
+  title: "Searching for Argument-Counterargument Relationships in Vector Embedding Spaces"
+  parent:
+    type: Conference
+    title: "Proceedings of the Annual Meeting of the Cognitive Science Society"
+    volume: 46
+  date: 2024
+  url: "https://escholarship.org/uc/item/56j610vg"
+
+andrews2019distinguishing:
+  type: Article
+  author:
+    - "Andrews, J."
+    - "de Leeuw, J. R."
+    - "Andrews, R.*"
+    - "Landolt, C.*"
+    - "Griesmer, C.*"
+  title: "Distinguishing learned categorical perception from selective attention to a dimension: Preliminary evidence from a new method"
+  parent:
+    type: Conference
+    title: "Proceedings of the 41st Annual Meeting of the Cognitive Science Society"
+    page-range: "1342-1347"
+    editor: ["Goel, A.", "Seifert, C.", "Freksa, C."]
+    publisher: "Cognitive Science Society"
+    location: "Austin, TX"
+  date: 2019
+
+andrews2017preliminary:
+  type: Article
+  author:
+    - "Andrews, J."
+    - "de Leeuw, J. R."
+    - "Larson, C.*"
+    - "Xu, X.*"
+  title: "A Preliminary P-Curve Meta-Analysis of Learned Categorical Perception Research"
+  parent:
+    type: Conference
+    title: "Proceedings of the 39th Annual Meeting of the Cognitive Science Society"
+    page-range: "1550-1555"
+    editor: ["G. Gunzelmann", "A. Howes", "T. Tenbrink", "E. J. Davelaar"]
+    publisher: "Cognitive Science Society"
+    location: "Austin, TX"
+  date: 2017
+
+lier2017can:
+  type: Article
+  author:
+    - "Lier, F."
+    - "Lücking, P."
+    - "de Leeuw, J. R."
+    - "Wachsmuth, S."
+    - "Šabanović, S."
+    - "Goldstone, R."
+  title: "Can we Reproduce it? Toward the Implementation of good Experimental Methodology in Interdisciplinary Robotics Research"
+  parent:
+    type: Conference
+    title: "Proceedings of IEEE International Conference on Robotics and Automation (ICRA), IEEE Xplore"
+    editor: ["F. P. Bonsignorio"]
+    publisher: "IEEE"
+    location: "Singapore"
+  date: 2017
+
+deleeuw2015memory:
+  type: Article
+  author:
+    - "de Leeuw, J. R."
+    - "Goldstone, R. L."
+  title: "Memory constraints affect statistical learning; Statistical learning affects memory constraints"
+  parent:
+    type: Conference
+    title: "Proceedings of the 37th Annual Meeting of the Cognitive Science Society"
+    page-range: "530-535"
+    editor: ["Noelle, D. C.", "Dale, R.", "Warlaumont, A. S.", "Yoshimi, J.", "Matlock, T.", "Jennings, C. D.", "Maglio, P. P."]
+    publisher: "Cognitive Science Society"
+    location: "Austin, TX"
+  date: 2015
+
+deleeuw2015using:
+  type: Article
+  author:
+    - "de Leeuw, J. R."
+    - "Andrews, J."
+  title: "Using a task-filled delay during discrimination trials to examine different components of learned visual categorical perception"
+  parent:
+    type: Conference
+    title: "Proceedings of the 37th Annual Meeting of the Cognitive Science Society"
+    page-range: "536-541"
+    editor: ["Noelle, D. C.", "Dale, R.", "Warlaumont, A. S.", "Yoshimi, J.", "Matlock, T.", "Jennings, C. D.", "Maglio, P. P."]
+    publisher: "Cognitive Science Society"
+    location: "Austin, TX"
+  date: 2015
+
+carvalho2015effectiveness:
+  type: Article
+  author:
+    - "Carvalho, P."
+    - "Braithwaite, D."
+    - "de Leeuw, J. R."
+    - "Motz, B."
+    - "Goldstone, R. L."
+  title: "Effectiveness of learner-regulated study sequence: An in-vivo study in Introductory Psychology courses"
+  parent:
+    type: Conference
+    title: "Proceedings of the 37th Annual Meeting of the Cognitive Science Society"
+    page-range: "309-314"
+    editor: ["Noelle, D. C.", "Dale, R.", "Warlaumont, A. S.", "Yoshimi, J.", "Matlock, T.", "Jennings, C. D.", "Maglio, P. P."]
+    publisher: "Cognitive Science Society"
+    location: "Austin, TX"
+  date: 2015
+
+deleeuw2015needle:
+  type: Article
+  author:
+    - "de Leeuw, J. R."
+    - "Motz, B. A."
+    - "Eastwood, J. L."
+    - "Maltese, A. V."
+    - "Goldstone, R. L."
+    - "Danish, J. A."
+  title: "Needle in the neural haystack: Electroencephalograph signatures of concept learning while viewing naturalistic educational materials"
+  parent:
+    type: Conference
+    title: "Proceedings of the 2015 American Educational Research Association Annual Meeting"
+  date: 2015
+
+deleeuw2014learned:
+  type: Article
+  author:
+    - "de Leeuw, J. R."
+    - "Andrews, J."
+    - "Livingston, K."
+  title: "Learned visual categorical perception effects depend on method of assessment and stimulus discriminability"
+  parent:
+    type: Conference
+    title: "Proceedings of the 36th Annual Conference of the Cognitive Science Society"
+    page-range: "391-396"
+    editor: ["P. Bello", "M. Guarini", "M. McShane", "B. Scassellati"]
+    publisher: "Cognitive Science Society"
+    location: "Austin, TX"
+  date: 2014
+
+krishnamurthy2010electric:
+  type: Article
+  author:
+    - "Krishnamurthy, P."
+    - "Khorrami, F."
+    - "de Leeuw, J. R."
+    - "Porter, M. E."
+    - "Livingston, K."
+    - "Long, J. H."
+  title: "An electric ray inspired biomimetic autonomous underwater vehicle"
+  parent:
+    type: Conference
+    title: "Proceedings of the American Control Conference"
+    page-range: "5224-5229"
+  date: 2010
+
+deleeuw2009self:
+  type: Article
+  author:
+    - "de Leeuw, J. R."
+    - "Livingston, K."
+  title: "A self-organizing autonomous prediction system for controlling mobile robots"
+  parent:
+    type: Conference
+    title: "Proceedings of the International Conference on Automation, Robotics and Control Systems (ARCS-09)"
+    page-range: "123-129"
+    editor: ["Chen, K.", "Moustafa, K. A. F.", "Karras, D. A."]
+    publisher: "ISRST"
+  date: 2009
+
+krishnamurthy2009multibody:
+  type: Article
+  author:
+    - "Krishnamurthy, P."
+    - "Khorrami, F."
+    - "de Leeuw, J. R."
+    - "Porter, M. E."
+    - "Livingston, K."
+    - "Long, J. H."
+  title: "A multi-body approach for 6dof modeling of biomimetic autonomous underwater vehicles with simulation and experimental results"
+  parent:
+    type: Conference
+    title: "Control Applications, (CCA) & Intelligent Control, (ISIC), 2009 IEEE"
+    page-range: "1282-1287"
+  date: 2009
+
+deleeuw2007when:
+  type: Article
+  author:
+    - "de Leeuw, J. R."
+    - "Livingston, K."
+  title: "When less is more: Sensor resolution and learning"
+  parent:
+    type: Conference
+    title: "Proceedings of the Seventh International Conference on Epigenetic Robotics: Modeling Cognitive Development in Robotic Systems"
+    editor: ["Berthouze, L.", "Prince, C. G.", "Littman, M.", "Kozima, H.", "Balkenius, C."]
+  date: 2007
+
+# Workshops & Tutorials
+deleeuw2025hackathon:
+  type: Workshop
+  author:
+    - "de Leeuw, J. R."
+    - "Inojosa, V."
+    - "Chang, C."
+  title: "jsPsych Spring 2025 Hackathon"
+  venue: "Vassar College"
+  date: 2025
+
+deleeuw2021psycholinguistics:
+  type: Workshop
+  author: ["de Leeuw, J. R."]
+  title: "jsPsych for psycholinguistics"
+  venue: "Centre for Comparative Psycholinguistics, University of Alberta"
+  date: 2021
+
+deleeuw2021replicating:
+  type: Workshop
+  author:
+    - "de Leeuw, J. R."
+    - "Ryskin, R."
+    - "James, A."
+    - "Hartshorne, J."
+  title: "Replicating five classic eyetracking effects with jsPsych and WebGazer"
+  venue: "Online eye tracking virtual meetup"
+  date: 2021
+
+hartshorne2020moving:
+  type: Workshop
+  author:
+    - "Hartshorne, J."
+    - "de Leeuw J.R."
+    - "Gilbert, R."
+    - "Bainbridge, C."
+    - "Robbins, P."
+  title: "Moving Research Online"
+  date: 2020
+
+deleeuw2019introduction:
+  type: Workshop
+  author: ["de Leeuw, J. R."]
+  title: "Introduction to jsPsych"
+  venue: "Scaling Cognitive Science Workshop. Princeton, NJ"
+  date: 2019
+
+deleeuw2019replication:
+  type: Article
+  author:
+    - "de Leeuw, J.R."
+    - "Andrews, J.A."
+    - "Livingston, K.L."
+    - "Wagge. J."
+    - "Hartshorne, J.K."
+    - "Hawkins, R.X.D."
+  title: "Using replication studies to teach research methods in cognitive science"
+  parent:
+    type: Conference
+    title: "Proceedings of the 41st Annual Meeting of the Cognitive Science Society"
+    page-range: "5-6"
+    editor: ["Goel, A.", "Seifert, C.", "Freksa, C."]
+    publisher: "Cognitive Science Society"
+    location: "Austin, TX"
+  date: 2019
+
+hartshorne2018massive:
+  type: Article
+  author:
+    - "Hartshorne, J."
+    - "de Leeuw, J. R."
+    - "Germine, L."
+    - "Reinecke, K."
+    - "Jennings, M."
+  title: "Massive Online Experiments in Cognitive Science"
+  parent:
+    type: Conference
+    title: "Proceedings of the 40th Annual Meeting of the Cognitive Science Society"
+    page-range: "9-10"
+    editor: ["Kalish, C.", "Rau, M.", "Zhu, J.", "Rogers, T."]
+    publisher: "Cognitive Science Society"
+    location: "Austin, TX"
+  date: 2018
+
+hartshorne2017pushkin:
+  type: Workshop
+  author:
+    - "Hartshorne, J."
+    - "Jennings, M."
+    - "de Leeuw, J.R."
+  title: "Pushkin Developers Workshop"
+  venue: "Boston College, Boston, MA"
+  date: 2017
+
+deleeuw2015using:
+  type: Workshop
+  author: ["de Leeuw, J. R."]
+  title: "Using jsPsych to conduct behavioral research online"
+  venue: "Workshop in Methods Series at Indiana University"
+  date: 2015
+
+deleeuw2015programming:
+  type: Article
+  author: ["de Leeuw, J. R."]
+  title: "Programming online experiments with jsPsych"
+  parent:
+    type: Conference
+    title: "Proceedings of the 37th Annual Meeting of the Cognitive Science Society"
+    page-range: "13-14"
+    editor: ["Noelle, D. C.", "Dale, R.", "Warlaumont, A. S.", "Yoshimi, J.", "Matlock, T.", "Jennings, C. D.", "Maglio, P. P."]
+    publisher: "Cognitive Science Society"
+    location: "Austin, TX"
+  date: 2015
+
+deleeuw2014online:
+  type: Article
+  author:
+    - "de Leeuw, J. R."
+    - "Coenen, A."
+    - "Markant, D."
+    - "Martin, J. B."
+    - "McDonnell, J."
+    - "Rich, A."
+    - "Gureckis, T."
+  title: "Online experiments using jsPsych, psiTurk, and Amazon Mechanical Turk"
+  parent:
+    type: Conference
+    title: "Proceedings of the 36th Annual Conference of the Cognitive Science Society"
+    page-range: "42-43"
+    editor: ["P. Bello", "M. Guarini", "M. McShane", "B. Scassellati"]
+    publisher: "Cognitive Science Society"
+    location: "Austin, TX"
+  date: 2014
+
+livingston2007virtual:
+  type: Workshop
+  author:
+    - "Livingston, K."
+    - "de Leeuw, J. R."
+  title: "Virtual bottom-up robotics lab with physical robot component"
+  venue: "Workshop on Interactive Computer-Based Activities for Undergraduate Cog Sci Instruction at the 29th Annual Meeting of the Cognitive Science Society"
+  date: 2007
+
+# Invited Talks
+deleeuw2025jspsych_ecosystem:
+  type: Talk
+  author: ["de Leeuw, J. R."]
+  title: "An introduction to the jsPsych ecosystem"
+  venue: "Indiana University"
+  date: 2025-04-16
+
+deleeuw2025lessons_software:
+  type: Talk
+  author: ["de Leeuw, J. R."]
+  title: "Lessons researchers can learn from software engineering"
+  venue: "Indiana University"
+  date: 2025-04-14
+
+
+deleeuw2024nih_eyetracking:
+  type: Talk
+  author: ["de Leeuw, J. R."]
+  title: "Eye tracking with a webcam for remote behavioral experiments: Current technology and a glimpse of what's next."
+  venue: "National Institutes of Health"
+  date: 2024-09-04
+
+
+deleeuw2021jspsych_cmu:
+  type: Talk
+  author: ["de Leeuw, J.R."]
+  title: "jsPsych as a tool for user studies"
+  venue: "Carnegie Mellon University"
+  date: 2021-11-08
+
+deleeuw2018neuroscience:
+  type: Talk
+  author: ["de Leeuw, J.R."]
+  title: "What neuroscience can't tell us about the mind"
+  venue: "Center for Lifetime Study, Marist College"
+  date: 2018-09-18
+
+deleeuw2017whats:
+  type: Talk
+  author: ["de Leeuw, J.R."]
+  title: "What's new in jsPsych 6?"
+  venue: "Indiana University"
+  date: 2017-05-17
+
+deleeuw2016using_wisconsin:
+  type: Talk
+  author: ["de Leeuw, J.R."]
+  title: "Using jsPsych to conduct behavioral research online"
+  venue: "University of Wisconsin, Madison"
+  date: 2016-02-24
+
+deleeuw2015ethics:
+  type: Talk
+  author: ["de Leeuw, J.R."]
+  title: "Doing Social Science Online: A Research Ethics Discussion with the Creator of jsPsych"
+  venue: "Poynter Center for the Study of Ethics and American Institutions, Indiana University"
+  date: 2015-10-14
+
+# Conference Presentations
+james2022what:
+  type: Presentation
+  author:
+    - "James, A."
+    - "Ryskin, R."
+    - "de Leeuw, J. R."
+  title: "What paradigms can webcam eye-tracking be used for? Attempted replications of 5 'classic' cognitive science experiments"
+  venue: "Cognitive Development Society, Madison, WI"
+  date: 2022
+  note: "Talk presented as part of the symposium on 'Automated gaze-tracking and gaze-annotation for online studies of cognition and development'"
+
+hartshorne2021experiments:
+  type: Presentation
+  author:
+    - "Hartshorne, J. K."
+    - "de Leeuw. J. R."
+  title: "Experiments subjects want"
+  venue: "Workshop on Using Games to Understand Intelligence, 43rd Annual Meeting of the Cognitive Science Society, Virtual"
+  date: 2021
+
+fyfe2020largescale:
+  type: Presentation
+  author:
+    - "Fyfe, E. R."
+    - "de Leeuw, J. R."
+    - "Carvalho, P."
+    - "Goldstone, R."
+    - "Sherman, J."
+    - "Motz, B."
+  title: "Large-Scale Collaborative Science: The ManyClasses Approach to Experimental Educational Research"
+  venue: "AERA Annual Meeting San Francisco, CA"
+  date: 2020
+  note: "Symposium. Conference Canceled"
+
+sherman2020time:
+  type: Presentation
+  author:
+    - "Sherman, J."
+    - "Fyfe, E. R."
+    - "Motz, B."
+    - "de Leeuw, J."
+    - "Carvalho, P."
+    - "Goldstone, R. L."
+  title: "The time and technical issues of ManyClasses: A study of the generalizability of educational practices in authentic classrooms"
+  venue: "Annual Meeting of the Association for Psychological Science, Chicago, IL"
+  date: 2020
+  note: "Conference Canceled"
+
+andrews2018strengthening:
+  type: Presentation
+  author:
+    - "Andrews, J. A."
+    - "de Leeuw, J. R."
+    - "Griesmer, C.*"
+    - "Landolt. C.*"
+  title: "Strengthening Learned Visual Categorical Perception Research"
+  venue: "40th Annual Meeting of the Cognitive Science Society, Madison, WI"
+  date: 2018
+  note: "Poster"
+
+deleeuw2018hierarchical:
+  type: Presentation
+  author:
+    - "de Leeuw, J. R."
+    - "DeStefano, I.*"
+  title: "Hierarchical Models of Individuals Engaged in Statistical Learning"
+  venue: "40th Annual Meeting of the Cognitive Science Society, Madison, WI"
+  date: 2018
+  note: "Poster"
+
+motz2018manyclasses:
+  type: Presentation
+  author:
+    - "Motz, B. A."
+    - "de Leeuw, J. R."
+    - "Carvalho, P."
+    - "Fyfe, E."
+    - "Goldstone, R. L."
+  title: "ManyClasses: A model for abstracting generalizable research principles from different learning contexts"
+  venue: "Replicate Education Workshop, Buffalo, NY"
+  date: 2018
+  note: "Talk"
+
+todd2018food:
+  type: Presentation
+  author:
+    - "Todd, P.M."
+    - "de Leeuw, J.R."
+    - "Nordli, S.A."
+    - "Harding, S.M."
+  title: "Food taboo and disgust reversal in the recently deceased"
+  venue: "Zombie Apocalypse Medicine Meeting, Arizona State University"
+  date: 2018
+  note: "Invited talk"
+
+motz2018rendering:
+  type: Presentation
+  author:
+    - "Motz, B. A."
+    - "Carvalho, P."
+    - "de Leeuw J. R."
+    - "Goldstone, R. L."
+  title: "Rendering retrieval practice as precious or painful"
+  venue: "10th Biennial Meeting of the International Association for Metacognition"
+  date: 2018
+  note: "Talk"
+
+slone2016modeling:
+  type: Presentation
+  author:
+    - "Slone, L. K."
+    - "de Leeuw, J. R."
+  title: "Modeling the factors underlying adults' confidence judgments in a visual statistical learning task"
+  venue: "Fifth Implicit Learning Seminar, Lancaster University, UK"
+  date: 2016
+  note: "Poster"
+
+deleeuw2015collaborative:
+  type: Presentation
+  author: ["de Leeuw, J. R."]
+  title: "A collaborative, open-source collection of browser-based experiments for teaching demonstrations using jsPsych"
+  venue: "Annual Meeting of the Society for Computers in Psychology, Chicago, IL"
+  date: 2015
+  note: "Poster"
+
+deleeuw2015statistical:
+  type: Presentation
+  author:
+    - "de Leeuw, J. R."
+    - "Goldstone, R. L."
+  title: "Statistical learning of regularities reduces memory constraints on statistical learning"
+  venue: "Annual Meeting of the Psychonomic Society, Chicago, IL"
+  date: 2015
+  note: "Poster"
+
+eastwood2015exploring:
+  type: Presentation
+  author:
+    - "Eastwood, J."
+    - "Maltese, A."
+    - "de Leeuw, J. R."
+    - "Danish, J."
+    - "Goldstone, R. L."
+    - "Motz, B."
+  title: "Exploring the inner-working of anatomy learning: an interdisciplinary approach"
+  venue: "Annual Meeting of the American Association of Anatomists, Boston, MA"
+  date: 2015
+  note: "Poster"
+
+deleeuw2014context:
+  type: Presentation
+  author:
+    - "de Leeuw, J. R."
+    - "Goldstone, R. L."
+  title: "Context effects in visual statistical learning"
+  venue: "Annual IGERT in Brain-body-environment Systems Symposium, Bloomington, IN"
+  date: 2014
+  note: "Poster"
+
+braithwaite2014effectiveness:
+  type: Presentation
+  author:
+    - "Braithwaite, D. W."
+    - "Carvalho, P. F."
+    - "de Leeuw, J. R."
+    - "Goldstone, R. L."
+  title: "Effectiveness of learner-regulated study sequence"
+  venue: "55th Annual Meeting of the Psychonomic Society, Long Beach, CA"
+  date: 2014
+  note: "Poster"
+
+carvalho2014sequencing:
+  type: Presentation
+  author:
+    - "Carvalho, P. F."
+    - "Braithwaite, D. W."
+    - "de Leeuw, J. R."
+    - "Motz, B. A."
+    - "Goldstone, R. L."
+  title: "Sequencing examples during concept learning"
+  venue: "2014 CIRCLE Conference - Integrating cognitive science with innovative teaching in STEM disciplines, St. Louis, MO"
+  date: 2014
+  note: "Poster"
+
+deleeuw2014predictable:
+  type: Presentation
+  author:
+    - "de Leeuw, J. R."
+    - "Goldstone, R. L."
+  title: "Predictable sequences promote the learning of visual statistical regularities"
+  venue: "4th Annual Midwest Cognitive Science Conference, Dayton, OH"
+  date: 2014
+
+deleeuw2013variables:
+  type: Presentation
+  author:
+    - "de Leeuw, J. R."
+    - "Andrews, J."
+    - "Livingston, K."
+  title: "Variables influencing the nature of learned categorical perception effects"
+  venue: "35th Annual Meeting of the Cognitive Science Society, Berlin, Germany"
+  date: 2013
+  note: "Poster"
+
+deleeuw2013influence:
+  type: Presentation
+  author:
+    - "de Leeuw, J. R."
+    - "Todd, P. M."
+  title: "The influence of hunger on categorical perception of food and non-food items"
+  venue: "3rd Annual Midwest Cognitive Science Conference, Columbus, OH"
+  date: 2013
+
+deleeuw2013common_poster:
+  type: Presentation
+  author: ["de Leeuw, J. R."]
+  title: "Common goals coordinate groups of asocial embodied robots"
+  venue: "2013 IGERT National Poster & Video Competition, online"
+  date: 2013
+  note: "Video and poster"
+  url: "http://posterhall.org/igert2013/"
+
+deleeuw2013meat:
+  type: Presentation
+  author:
+    - "de Leeuw, J. R."
+    - "Todd, P. M."
+  title: "Meat-O-Vision: Testing a literary trope in the lab"
+  venue: "Annual IGERT in Brain-body-environment Systems Symposium, Bloomington, IN"
+  date: 2013
+  note: "Poster"
+
+deleeuw2013swarm:
+  type: Presentation
+  author:
+    - "de Leeuw, J. R."
+    - "Livingston, K. R."
+    - "Porter, M. E."
+    - "Long, J. H. Jr."
+  title: "When swarm intelligence isn't: Common goals alone explain emergence of group coordination in asocial embodied robots"
+  venue: "Society for Integrative and Comparative Biology, San Francisco, CA"
+  date: 2013
+
+deleeuw2012common:
+  type: Presentation
+  author:
+    - "de Leeuw, J. R."
+    - "Livingston, K."
+    - "Porter, M. E."
+    - "Long, J.H. Jr."
+  title: "Common goals coordinate groups of asocial embodied robots"
+  venue: "Annual IGERT in Brain-body-environment Systems Symposium, Bloomington, IN"
+  date: 2012
+  note: "Poster"
+
+deleeuw2011testing:
+  type: Presentation
+  author: ["de Leeuw, J. R."]
+  title: "Testing selection pressures for small-world neural networks in virtual robots"
+  venue: "Annual IGERT in Brain-body-environment Systems Symposium, Bloomington, IN"
+  date: 2011
+  note: "Poster"
+
+deleeuw2010evolving:
+  type: Presentation
+  author:
+    - "de Leeuw, J. R."
+    - "Porter, M."
+    - "Livingston, K."
+    - "Long, J.H. Jr."
+  title: "Evolving intelligence in autonomous, fish-like biorobots: does competition for resources matter?"
+  venue: "Society for Integrative and Comparative Biology, Seattle, WA"
+  date: 2010
+  note: "Poster"
+
+hirokawa2010self:
+  type: Presentation
+  author:
+    - "Hirokawa, J."
+    - "Roberts, S."
+    - "Frias, C."
+    - "Krenitsky, N."
+    - "de Leeuw, J. R."
+    - "Long, J.H., Jr."
+    - "Porter, M. E."
+  title: "A self-propelled robotic swimmer as a biomechanical testbed: how swimming performance is modulated by the axial length of the intervertebral joints in a biomimetic vertebral column"
+  venue: "Society for Integrative and Comparative Biology, Seattle, WA"
+  date: 2010
+  note: "Poster"
+
+# Software
+jspsych8:
+  type: Repository
+  author:
+    - "de Leeuw, J.R."
+    - "Gilbert, R.A."
+    - "Luchterhandt, B."
+  title: "jsPsych"
+  version: "8.0"
+  date: 2024-07-16
+
+jspsych7:
+  type: Repository
+  author:
+    - "de Leeuw, J.R."
+    - "Gilbert, R.A."
+    - "Luchterhandt, B."
+  title: "jsPsych"
+  version: "7.0"
+  date: 2021-10-01
+
+jspsych6:
+  type: Repository
+  author: ["de Leeuw, J.R."]
+  title: "jsPsych"
+  version: "6.0"
+  date: 2018-01-03
+
+jspsych5:
+  type: Repository
+  author: ["de Leeuw, J.R."]
+  title: "jsPsych"
+  version: "5.0"
+  date: 2016-01-07
+
+jspsych4:
+  type: Repository
+  author: ["de Leeuw, J.R."]
+  title: "jsPsych"
+  version: "4.0"
+  date: 2014-10-21
+
+jspsych3:
+  type: Repository
+  author: ["de Leeuw, J.R."]
+  title: "jsPsych"
+  version: "3.0"
+  date: 2014-07-09
+
+jspsych2:
+  type: Repository
+  author: ["de Leeuw, J.R."]
+  title: "jsPsych"
+  version: "2.0"
+  date: 2014-01-28
+
+jspsych1:
+  type: Repository
+  author: ["de Leeuw, J.R."]
+  title: "jsPsych"
+  version: "1.0"
+  date: 2012-07-20
+
+# Data Sets
+motz2017eyetracking:
+  type: Misc
+  author:
+    - "Motz, B.A."
+    - "de Leeuw, J.R."
+    - "Goldstone, R.L."
+    - "Maltese, A."
+    - "Danish, J."
+  title: "Eyetracking while watching audio-annotated powerpoint lectures"
+  date: 2017
+  doi: "10.17605/OSF.IO/EACQH"

@@ -1,0 +1,82 @@
+name: Render CV
+
+on:
+  # Trigger on pushes to main branch
+  push:
+    branches: [ main ]
+    paths:
+      - '**.typ'
+      - '**.yml'
+      - 'config.typ'
+      - 'cv.typ'
+  
+  # Trigger on pull requests to main
+  pull_request:
+    branches: [ main ]
+    paths:
+      - '**.typ'
+      - '**.yml'
+      - 'config.typ'
+      - 'cv.typ'
+  
+  # Allow manual trigger
+  workflow_dispatch:
+
+jobs:
+  render:
+    runs-on: ubuntu-latest
+    
+    steps:
+    - name: Checkout repository
+      uses: actions/checkout@v4
+      
+    - name: Setup Typst
+      uses: typst-community/setup-typst@v1
+      with:
+        typst-version: latest
+        
+    - name: Install Font Awesome and IBM Plex fonts
+      run: |
+        # Download and install Font Awesome fonts
+        wget -O fontawesome.zip https://github.com/FortAwesome/Font-Awesome/releases/download/6.7.2/fontawesome-free-6.7.2-desktop.zip
+        unzip fontawesome.zip
+        sudo mkdir -p /usr/share/fonts/truetype/fontawesome
+        sudo cp fontawesome-free-6.7.2-desktop/otfs/*.otf /usr/share/fonts/truetype/fontawesome/
+        
+        # Download and install IBM Plex fonts
+        wget -O ibmplex.zip https://github.com/IBM/plex/releases/download/v6.4.0/OpenType.zip
+        unzip ibmplex.zip
+        sudo mkdir -p /usr/share/fonts/truetype/ibmplex
+        sudo cp OpenType/IBM-Plex-Sans/*.otf /usr/share/fonts/truetype/ibmplex/
+        sudo cp OpenType/IBM-Plex-Serif/*.otf /usr/share/fonts/truetype/ibmplex/
+        sudo cp OpenType/IBM-Plex-Mono/*.otf /usr/share/fonts/truetype/ibmplex/
+        
+        # Refresh font cache
+        sudo fc-cache -f -v
+        
+    - name: Render CV to PDF
+      run: |
+        typst compile cv.typ "Joshua_de_Leeuw_CV.pdf"
+        
+    - name: Upload CV as artifact
+      uses: actions/upload-artifact@v4
+      with:
+        name: cv-pdf
+        path: "Joshua_de_Leeuw_CV.pdf"
+        retention-days: 90
+        
+    - name: Create Release (on main branch push)
+      if: github.ref == 'refs/heads/main' && github.event_name == 'push'
+      uses: softprops/action-gh-release@v1
+      with:
+        tag_name: cv-${{ github.run_number }}
+        name: "CV Build ${{ github.run_number }}"
+        body: |
+          Automatically generated CV from commit ${{ github.sha }}
+          
+          Download the PDF below.
+        files: "Joshua_de_Leeuw_CV.pdf"
+        draft: false
+        prerelease: false
+      env:
+        GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
