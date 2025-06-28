@@ -22,6 +22,9 @@ on:
   # Allow manual trigger
   workflow_dispatch:
 
+permissions:
+  contents: write
+
 jobs:
   render:
     runs-on: ubuntu-latest
@@ -65,7 +68,7 @@ jobs:
         
     - name: Create Release (on main branch push)
       if: github.ref == 'refs/heads/main' && github.event_name == 'push'
-      uses: softprops/action-gh-release@v1
+      uses: softprops/action-gh-release@v2
       with:
         tag_name: cv-${{ github.run_number }}
         name: "CV Build ${{ github.run_number }}"
@@ -74,7 +77,4 @@ jobs:
           
           Download the PDF below.
         files: "Joshua_de_Leeuw_CV.pdf"
-        draft: false
-        prerelease: false
-      env:
-        GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        generate_release_notes: true
