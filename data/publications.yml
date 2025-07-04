@@ -84,6 +84,7 @@ nave2025replication:
   date: 2025
   doi: "10.1101/2025.03.13.643168"
   url: "https://www.biorxiv.org/content/early/2025/03/17/2025.03.13.643168"
+  note: "Pre-print"
 
 inojosa2025online:
   type: Article
@@ -151,6 +152,9 @@ ostrowski2023choice:
   title: "Choice-contingent feedback creates a learning trap: Replication of Rich & Gureckis (2018), Experiment 1"
   date: 2023-09-08
   doi: "10.31234/osf.io/b6wxu"
+  parent:
+    type: Periodical
+    title: "PsyArXiv"
   note: "Pre-print"
 
 deleeuw2022working:
@@ -161,6 +165,9 @@ deleeuw2022working:
   title: "Working memory load does not reduce the SNARC effect: Replication of van Dijck, Gevers, & Fias (2009), Experiment 1"
   date: 2022-08-16
   doi: "10.31234/osf.io/uar3f"
+  parent:
+    type: Periodical
+    title: "PsyArXiv"
   note: "Pre-print"
 
 # 2024 Journal Articles
