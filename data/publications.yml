@@ -101,7 +101,7 @@ inojosa2025online:
     edition: 3
   date: 2025
 
-motz2024manyclasses2:
+motz2025manyclasses2:
   type: Article
   author:
     - "Motz, B."
@@ -139,8 +139,10 @@ motz2024manyclasses2:
     - "Fyfe, E."
   title: "ManyClasses 2: The Effects of Prequestions on Media Interactions and Learning"
   date: 2024-07-29
-  doi: "10.31234/osf.io/3xbma"
-  note: "Under review"
+  doi: "10.1037/edu0000978"
+  parent:
+    type: Periodical
+    title: "Journal of Educational Psychology"
 
 # Pre-prints
 ostrowski2023choice:
