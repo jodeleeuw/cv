@@ -53,13 +53,13 @@
   let authors = format_authors(entry.author)
   let year = extract_year(entry.date)
   let title = entry.title
-  
+
   let result = authors + " (" + year + "). " + title + ". "
-  
+
   if "parent" in entry {
     let parent = entry.parent
     result = result + emph(parent.title)
-    
+
     if "volume" in parent {
       result = result + ", " + str(parent.volume)
     }
@@ -71,17 +71,57 @@
     }
     result = result + ". "
   }
-  
+
   if "doi" in entry {
     result = result + box(link("https://doi.org/" + entry.doi))
   } else if "url" in entry {
     result = result + box(link(entry.url))
   }
-  
+
   if "note" in entry {
     result = result + " [" + entry.note + "]"
   }
-  
+
+  result
+}
+
+// Format an encyclopedia entry in APA style
+#let format_encyclopedia_entry(entry) = {
+  let authors = format_authors(entry.author)
+  let year = extract_year(entry.date)
+  let title = entry.title
+
+  let result = authors + " (" + year + "). " + title + ". "
+
+  if "parent" in entry {
+    let parent = entry.parent
+    result = result + emph(parent.title)
+
+    if "edition" in parent {
+      result = result + " (" + str(parent.edition)
+      if str(parent.edition) == "1" {
+        result = result + "st ed.)"
+      } else if str(parent.edition) == "2" {
+        result = result + "nd ed.)"
+      } else if str(parent.edition) == "3" {
+        result = result + "rd ed.)"
+      } else {
+        result = result + "th ed.)"
+      }
+    }
+    result = result + ". "
+  }
+
+  if "doi" in entry {
+    result = result + box(link("https://doi.org/" + entry.doi))
+  } else if "url" in entry {
+    result = result + box(link(entry.url))
+  }
+
+  if "note" in entry {
+    result = result + " [" + entry.note + "]"
+  }
+
   result
 }
 
@@ -264,6 +304,11 @@
   entry.type == "Article" and "parent" in entry and entry.parent.type == "Periodical"
 }
 
+// Encyclopedia entries: Articles with Encyclopedia parents
+#let is_encyclopedia_entry(entry) = {
+  entry.type == "Article" and "parent" in entry and entry.parent.type == "Encyclopedia"
+}
+
 // Conference papers: Articles with Conference parents
 #let is_conference_paper(entry) = {
   entry.type == "Article" and "parent" in entry and entry.parent.type == "Conference"
@@ -368,8 +413,50 @@
 #let journal_articles_section() = {
   let all_entries = load_bibliography_data()
   let journal_articles = filter_entries(all_entries, is_journal_article)
-  let grouped_data = group_by_year(journal_articles, format_journal_article)
-  year_table(grouped_data)
+  let encyclopedia_entries = filter_entries(all_entries, is_encyclopedia_entry)
+
+  // Combine and format both types
+  let journal_data = group_by_year(journal_articles, format_journal_article)
+  let encyclopedia_data = group_by_year(encyclopedia_entries, format_encyclopedia_entry)
+
+  // Merge the two datasets
+  let combined_data = journal_data + encyclopedia_data
+
+  // Sort by year (maintaining special categories at top)
+  let sorted_data = ()
+  let special_years = ("Under review", "Pre-prints")
+
+  // Add special categories first
+  for item in combined_data {
+    if item.year in special_years {
+      sorted_data.push(item)
+    }
+  }
+
+  // Add regular years in reverse chronological order
+  let regular_years = (:)
+  for item in combined_data {
+    if item.year not in special_years {
+      let year = item.year
+      if year not in regular_years {
+        regular_years.insert(year, ())
+      }
+      regular_years.at(year).push(item.content)
+    }
+  }
+
+  let year_keys = regular_years.keys().map(k => int(k)).sorted().rev()
+  for year_num in year_keys {
+    let year_str = str(year_num)
+    sorted_data.push((
+      year: year_str,
+      content: regular_years.at(year_str).join([
+
+      ])
+    ))
+  }
+
+  year_table(sorted_data)
 }
 
 #let conference_papers_section() = {
