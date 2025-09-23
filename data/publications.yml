@@ -149,8 +149,8 @@ andrews2025meta:
   type: Article
   author:
     - "Andrews, J."
-    - "Gatto, O."
-    - "LeLacheur, A."
+    - "Gatto, O.*"
+    - "LeLacheur, A.*"
     - "de Leeuw, J. R."
   title: "What have we learned about learned categorical perception? A meta-analysis of 30 years of research"
   date: 2025-09-03
