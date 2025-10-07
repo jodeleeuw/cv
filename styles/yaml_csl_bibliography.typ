@@ -352,13 +352,14 @@
     let is_special = false
     if "note" in entry {
       let note = entry.note
+      // Under review takes precedence if both are present
       if note.contains("under review") or note.contains("Under review") {
         if "Under review" not in special_groups {
           special_groups.insert("Under review", ())
         }
         special_groups.at("Under review").push(formatted_entry)
         is_special = true
-      } else if note.contains("preprint") or note.contains("Preprint") {
+      } else if note.contains("preprint") or note.contains("Preprint") or note.contains("pre-print") or note.contains("Pre-print") {
         if "Pre-prints" not in special_groups {
           special_groups.insert("Pre-prints", ())
         }
