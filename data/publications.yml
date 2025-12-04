@@ -313,9 +313,11 @@ wan2025words:
   title: "Are words perceived more clearly than nonwords? A conceptual replication and extension of Lupyan (2017)"
   parent:
     type: Periodical
-    title: ""
+    title: "PsyArXiv"
   date: 2025
-  note: "Under review"
+  doi: "10.31234/osf.io/2mhrp_v1"
+  url: "https://doi.org/10.31234/osf.io/2mhrp_v1"
+  note: "Pre-print, Under review"
 
 james2025eyetracking:
   type: Article

@@ -16,6 +16,8 @@ sections:
   - title: "College Service"
     type: "year_table"
     entries:
+      - year: "2025-2026"
+        content: "Faculty Appointments and Salary Committee; Institutional Review Board Member; Co-director, Interdisciplinary Robotics Research Laboratory; Academic Advisory Group for Innovation; Academic working group on AI;"
       - year: "2024-2025"
         content: "Co-director, Interdisciplinary Robotics Research Laboratory; Academic Advisory Group for Innovation; Academic working group on AI; Lectured at Reunion on AI in the Classroom"
       - year: "2023-2024"
