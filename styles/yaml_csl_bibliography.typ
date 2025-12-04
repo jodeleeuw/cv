@@ -48,9 +48,7 @@
       // Skip first 19 and last author (they're always shown)
       if i >= 19 and i < authors.len() - 1 {
         // Check if this is your name (various formats) or a student author
-        let is_my_name = author.contains("de Leeuw, J. R.") or 
-                         author.contains("de Leeuw, J.R.") or 
-                         author.contains("de Leeuw, J.")
+        let is_my_name = author.contains("de Leeuw, J. R.") or author.contains("de Leeuw, J.R.") or author.contains("de Leeuw, J.")
         if is_my_name or author.ends-with("*") {
           important_authors.push((index: i, name: author))
         }
