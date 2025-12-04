@@ -41,9 +41,49 @@
     }
     result
   } else {
-    // More than 7 authors - use et al.
-    let first_authors = authors.slice(0, 19)
-    let result = first_authors.join(", ") + ", ... " + authors.at(-1)
+    // More than 20 authors - show first 19, important middle authors, and last author
+    // Check for important authors (your name or student authors marked with *)
+    let important_authors = ()
+    for (i, author) in authors.enumerate() {
+      // Skip first 19 and last author (they're always shown)
+      if i >= 19 and i < authors.len() - 1 {
+        // Check if this is your name (various formats) or a student author
+        let is_my_name = author.contains("de Leeuw, J. R.") or 
+                         author.contains("de Leeuw, J.R.") or 
+                         author.contains("de Leeuw, J.")
+        if is_my_name or author.ends-with("*") {
+          important_authors.push((index: i, name: author))
+        }
+      }
+    }
+    
+    let result = ""
+    let last_shown_index = 18  // Last index of first 19 authors (0-indexed)
+    
+    // Show first 19 authors
+    for i in range(19) {
+      if i == 0 {
+        result = authors.at(i)
+      } else {
+        result = result + ", " + authors.at(i)
+      }
+    }
+    
+    // Add important middle authors with ellipses
+    if important_authors.len() > 0 {
+      for imp_author in important_authors {
+        result = result + ", ... " + imp_author.name
+        last_shown_index = imp_author.index
+      }
+    }
+    
+    // Add ellipses before last author if there's a gap
+    if last_shown_index < authors.len() - 2 {
+      result = result + ", ... " + authors.at(-1)
+    } else {
+      result = result + ", " + authors.at(-1)
+    }
+    
     result
   }
 }
