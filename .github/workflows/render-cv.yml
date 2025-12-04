@@ -66,12 +66,40 @@ jobs:
         path: "Joshua_de_Leeuw_CV.pdf"
         retention-days: 90
         
+    - name: Generate release tag with date
+      if: github.ref == 'refs/heads/main' && github.event_name == 'push'
+      id: release_tag
+      run: |
+        # Get today's date in YYYY-MM-DD format
+        TODAY=$(date -u +%Y-%m-%d)
+        
+        # Fetch all tags to check for existing ones with today's date
+        git fetch --tags
+        
+        # Find existing tags for today and determine the suffix
+        SUFFIX=""
+        EXISTING_TAGS=$(git tag -l "cv-${TODAY}*" | sort)
+        
+        if [ -n "$EXISTING_TAGS" ]; then
+          # Count existing tags for today to determine next suffix
+          COUNT=$(echo "$EXISTING_TAGS" | wc -l)
+          # Convert count to letter (1->a, 2->b, etc.)
+          # First release of the day has no suffix, second gets 'a', third gets 'b', etc.
+          SUFFIX=$(printf "\\x$(printf '%x' $((96 + COUNT)))")
+        fi
+        
+        TAG_NAME="cv-${TODAY}${SUFFIX}"
+        RELEASE_NAME="CV ${TODAY}${SUFFIX}"
+        
+        echo "tag_name=${TAG_NAME}" >> $GITHUB_OUTPUT
+        echo "release_name=${RELEASE_NAME}" >> $GITHUB_OUTPUT
+        
     - name: Create Release (on main branch push)
       if: github.ref == 'refs/heads/main' && github.event_name == 'push'
       uses: softprops/action-gh-release@v2
       with:
-        tag_name: cv-${{ github.run_number }}
-        name: "CV Build ${{ github.run_number }}"
+        tag_name: ${{ steps.release_tag.outputs.tag_name }}
+        name: ${{ steps.release_tag.outputs.release_name }}
         body: |
           Automatically generated CV from commit ${{ github.sha }}
           
