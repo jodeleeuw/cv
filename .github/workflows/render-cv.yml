@@ -84,8 +84,8 @@ jobs:
           # Count existing tags for today to determine next suffix
           COUNT=$(echo "$EXISTING_TAGS" | wc -l)
           # Convert count to letter (1->a, 2->b, etc.)
-          # First release of the day has no suffix, second gets 'b', third gets 'c', etc.
-          SUFFIX=$(printf "\\x$(printf '%x' $((97 + COUNT)))")
+          # First release of the day has no suffix, second gets 'a', third gets 'b', etc.
+          SUFFIX=$(printf "\\x$(printf '%x' $((96 + COUNT)))")
         fi
         
         TAG_NAME="cv-${TODAY}${SUFFIX}"
