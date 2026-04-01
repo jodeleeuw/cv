@@ -501,7 +501,7 @@
     type: Periodical
     title: "Nature"
     volume: 652
-    pagerange: "135-142"
+    page-range: "135-142"
   date: 2026
   doi: "10.1038/s41586-025-09844-9"
 
@@ -806,7 +806,7 @@ tyner2026investigating:
     type: Periodical
     title: "Nature"
     volume: 652
-    pagerange: "143-150"
+    page-range: "143-150"
   date: 2026
   doi: "10.1038/s41586-025-09844-9"
 
