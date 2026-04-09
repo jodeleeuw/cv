@@ -1813,6 +1813,20 @@ livingston2007virtual:
   date: 2007
 
 # Invited Talks
+deleeuw2026merced:
+  type: Talk
+  author: ["de Leeuw, J. R."]
+  title: "Building an Open-Source Ecosystem for Behavioral Experiments"
+  venue: "University of California, Merced"
+  date: 2026-03-03
+
+deleeuw2025scip:
+  type: Talk
+  author: ["de Leeuw, J. R."]
+  title: "Next-generation webcam eye tracking for behavioral research"
+  venue: "Society for Computers in Psychology, Presidential Symposium"
+  date: 2025-11-20
+
 deleeuw2025jspsych_ecosystem:
   type: Talk
   author: ["de Leeuw, J. R."]
