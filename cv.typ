@@ -34,7 +34,7 @@
   #professional_activity_section(professional_activity_data)
 ]
 
-#section("Publications")[
+#section("Publications and Presentations")[
   #text(size: 10pt, style: "italic")[\* denotes Vassar student collaborator]
   
   == Journal Articles
