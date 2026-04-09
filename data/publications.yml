@@ -500,8 +500,10 @@
   parent:
     type: Periodical
     title: "Nature"
+    volume: 652
+    page-range: "135-142"
   date: 2026
-  note: "in press"
+  doi: "10.1038/s41586-025-09844-9"
 
 
 tyner2026investigating:
@@ -803,8 +805,10 @@ tyner2026investigating:
   parent:
     type: Periodical
     title: "Nature"
+    volume: 652
+    page-range: "143-150"
   date: 2026
-  note: "in press"
+  doi: "10.1038/s41586-025-09844-9"
 
 # Under review
 wan2025words:
