@@ -1674,6 +1674,16 @@ deleeuw2007when:
   date: 2007
 
 # Workshops & Tutorials
+deleeuw2026hackathon:
+  type: Workshop
+  author:
+    - "Inojosa, V."
+    - "Teabo, A.*"
+    - "de Leeuw, J. R."
+  title: "jsPsych Summer 2026 Hackathon"
+  venue: "Vassar College"
+  date: 2026
+
 deleeuw2025hackathon:
   type: Workshop
   author:
@@ -1830,6 +1840,28 @@ deleeuw2025scip:
   title: "Next-generation webcam eye tracking for behavioral research"
   venue: "Society for Computers in Psychology, Presidential Symposium"
   date: 2025-11-20
+
+deleeuw2025pat_ucla:
+  type: Talk
+  author: ["de Leeuw, J. R."]
+  title: "Meet PAT, an AI in the classroom"
+  venue: "UCLA Teaching and Learning Lab"
+  date: 2025-10-31
+
+deleeuw2025cos_panel:
+  type: Talk
+  author: ["de Leeuw, J. R."]
+  title: "An OSF open-source ecosystem: Advancing open science through open-source partnerships"
+  venue: "Center for Open Science"
+  date: 2025-10-03
+  note: "Panelist"
+
+deleeuw2025jspsych_ecosystem_swarthmore:
+  type: Talk
+  author: ["de Leeuw, J. R."]
+  title: "An introduction to the jsPsych ecosystem"
+  venue: "Swarthmore College"
+  date: 2025-09-26
 
 deleeuw2025jspsych_ecosystem:
   type: Talk

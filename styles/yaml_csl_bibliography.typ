@@ -299,8 +299,14 @@
   let result = authors + " (" + year + "). " + title + ". "
   
   if "venue" in entry {
-    result = result + emph(entry.venue) + "."
+    result = result + emph(entry.venue)
   }
+  
+  if "note" in entry {
+    result = result + " (" + entry.note + ")"
+  }
+  
+  result = result + "."
   
   result
 }
