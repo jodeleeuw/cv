@@ -990,6 +990,38 @@ andrews2025meta:
     title: "PsyArXiv"
   note: "Pre-print, Under review"
 
+deleeuw2026visual:
+  type: Article
+  author:
+    - "de Leeuw, J. R."
+    - "Long, J.H. Jr."
+    - "Colley, H.*"
+    - "Donnelly, A.*"
+    - "Fakki, L.*"
+    - "Haley, C.*"
+    - "Jarolimek, J. D.*"
+    - "Jones, S.*"
+    - "Kogan, E.*"
+    - "Leonard, G. J.*"
+    - "Liao, M.*"
+    - "Misko, N.*"
+    - "Nix, E.*"
+    - "North, Z.*"
+    - "Pandruvada, N.*"
+    - "Paudel, S.*"
+    - "Schuchat, C.*"
+    - "Tsukamoto, H.*"
+    - "Wang, K.*"
+    - "Xa-Chin, J.*"
+    - "Zou, A.*"
+  title: "Visual search with many targets in mind: A successful replication of Drew, Boettcher, and Wolfe (2017)"
+  date: 2026-10-20
+  doi: "10.31234/osf.io/erp9w_v1"
+  parent:
+    type: Periodical
+    title: "PsyArXiv"
+  note: "Pre-print"
+
 ostrowski2023choice:
   type: Article
   author:
