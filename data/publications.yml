@@ -911,11 +911,10 @@ nave2025replication:
   title: "Registered Report: Replication and Extension of Nozaradan, Peretz, Missal and Mouraux (2011)"
   parent:
     type: Periodical
-    title: "bioRxiv"
+    title: "Advances in Methods and Practices in Psychological Science"
   date: 2025
-  doi: "10.1101/2025.03.13.643168"
   url: "https://www.biorxiv.org/content/early/2025/03/17/2025.03.13.643168"
-  note: "Pre-print, Under review"
+  note: "In press"
 
 inojosa2025online:
   type: Article

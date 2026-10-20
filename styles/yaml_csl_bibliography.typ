@@ -396,8 +396,14 @@
     let is_special = false
     if "note" in entry {
       let note = entry.note
-      // Only "Under review" gets special grouping (including when combined with pre-print)
-      if note.contains("under review") or note.contains("Under review") {
+      // "In press" and "Under review" get special grouping (including when combined with pre-print)
+      if note.contains("in press") or note.contains("In press") {
+        if "In press" not in special_groups {
+          special_groups.insert("In press", ())
+        }
+        special_groups.at("In press").push(formatted_entry)
+        is_special = true
+      } else if note.contains("under review") or note.contains("Under review") {
         if "Under review" not in special_groups {
           special_groups.insert("Under review", ())
         }
@@ -419,7 +425,7 @@
   let year_table_data = ()
   
   // Add special categories first
-  let special_order = ("Under review",)
+  let special_order = ("In press", "Under review")
   for special_year in special_order {
     if special_year in special_groups and special_groups.at(special_year).len() > 0 {
       year_table_data.push((
@@ -463,7 +469,7 @@
 
   // Sort by year (maintaining special categories at top)
   let sorted_data = ()
-  let special_years = ("Under review",)
+  let special_years = ("In press", "Under review")
 
   // Add special categories first
   for item in combined_data {
